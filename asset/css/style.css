@@ -6,4 +6,161 @@ html{
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-color: #f1f1f1;
+    height: 1000px;
+}
+
+.content{
+    margin: 16px 0;
+}
+.content-left{
+    background-color: #ffffff;
+    
+}
+.content-left-heading-img{
+    width: 100%;
+    height: 297px;
+    background-image: url('../img/174606218_2824865724431705_84893.jpg');
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+.content-left-heading-img::after{
+    content: 'Tang Thuan Phat';
+    position: absolute;
+    color: #563f3f;
+    bottom: 0;
+    font-size: 3rem;
+    margin: 10px 0;
+    padding: 0 16px;
+}
+.content-left-heading-list{
+    padding-left: 0;
+    list-style: none;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+}
+.content-left-heading-item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    line-height: 2.4rem;
+}
+.content-left-heading-descrip{
+    margin-left: 16px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #757575;
+}
+.content-left-heading-icon,.content-left-skill-heading-icon{
+    font-size: 1.8rem;
+    padding-right: 16px;
+    color: #009688;
+}
+.content-left-main{
+    padding: 0 16px;
+}
+.content-left-skill-heading{
+    display: flex;
+    align-items: center;
+}
+
+.content-left-skill-heading-text{
+    font-size: 1.8rem;
+    color: #757575;
+    font-weight: 600;
+}
+.content-left-skill-list{
+    list-style: none;
+    padding-left: 0;
+}
+.content-left-skill-text{
+    font-size: 1.5rem;
+    color: #757575;
+    
+}
+.content-left-skill-percent1{
+    width: 70%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent2{
+    width: 30%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent3{
+    width: 50%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 14px;
+}
+.content-left-skill-percent4{
+    width: 90%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent5{
+    width: 70%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent6{
+    width: 40%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent7{
+    width: 50%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+.content-left-skill-percent8{
+    width: 30%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
 }
