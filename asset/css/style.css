@@ -15,7 +15,8 @@ html{
 }
 .content-left{
     background-color: #ffffff;
-    
+    padding-bottom: 50px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 .content-left-heading-img{
     width: 100%;
@@ -163,4 +164,103 @@ html{
     line-height: 1.8rem;
     font-size: 1.2rem;
     border-radius: 15px;
+}
+.content-right-first,.content-right-second{
+    background-color: #ffffff;
+    
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.content-right-first-box,
+.content-right-second-box{
+    padding: 0 16px;
+}
+.content-right-first-box-heading,
+.content-right-second-box-heading{
+    display: flex;
+    align-items: center;
+    line-height: 2rem;
+    padding: 45px 0 15px 0;
+}
+.content-right-first-box-icon,
+.content-right-second-box-icon{
+    margin-right: 16px;
+    color: #009688;
+    font-size: 3.2rem;
+}
+.content-right-first-box-text,
+.content-right-second-box-text{
+    font-size: 3rem;
+    color: #757575;
+    
+    margin: 0;
+}
+.content-right-first-box-main,
+.content-right-second-box-main{
+    padding: 0 16px;
+}
+.content-right-first-box-list,
+.content-right-second-box-list{
+    list-style: none;
+    padding-left: 0;
+}
+.content-right-first-box-item,
+.content-right-second-box-item{
+    border-bottom: 2px solid #f5f5f5;
+}
+.content-right-first-box-item-name,
+.content-right-second-box-item-name{
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 500;
+    margin: 15px 0;
+    padding-top: 15px;
+}
+.content-right-first-box-item-time,
+.content-right-second-box-item-time{
+    color: #009688;
+    font-size: 1.6rem;
+}
+.content-right-first-box-item-time-icon,
+.content-right-second-box-item-time-icon{
+    margin-right: 16px;
+}
+.content-right-first-box-item-date{
+
+}
+.current{
+    padding: 2px 8px;
+    border-radius: 5px;
+    background-color: #009688;
+    color: #eee;
+}
+.content-right-first-box-item-time-description,
+.content-right-second-box-item-time-description{
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: #009688;
+}
+.footer-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.footer-content-social-icon{
+    padding: 0 2px;
+}
+.footer-content-social-icon:hover{
+    opacity: 0.5;
+
+}
+.footer-content-text span{
+    text-decoration: underline;
+    cursor: pointer;
 }
